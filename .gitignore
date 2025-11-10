@@ -1,0 +1,10 @@
+venv
+models
+movie_reviews_db
+reference
+learned.txt
+Movies_Reviews_modified_version1.csv
+app.py
+app_new.py
+store.py
+store_new.py
