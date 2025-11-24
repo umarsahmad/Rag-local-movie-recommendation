@@ -19,7 +19,7 @@ retriever = vector_store.as_retriever(search_kwargs={"k": 5})
 print("🧠 Loading TinyLlama...")
 MODEL_PATH = "./models/tiny-llama-1b"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-
+print("Device in use:", DEVICE)
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_PATH,

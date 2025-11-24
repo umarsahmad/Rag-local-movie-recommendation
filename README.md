@@ -1,5 +1,12 @@
 # 🎬 TinyLlama Movie Chatbot (Local RAG App)
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=zful6iXCnm4">
+    <img src="https://img.youtube.com/vi/zful6iXCnm4/0.jpg" width="600" />
+  </a>
+</p>
+
+
 This project is a fully local Retrieval-Augmented Generation (RAG) chatbot for movie data, built on:
 
 - 🦙 TinyLlama (local 1.1B parameter LLM)
